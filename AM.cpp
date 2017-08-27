@@ -13,7 +13,7 @@ int main()
 	
 	cout<<" \n Enter the number of elements : ";
 	cin>>arraysize;
-	cout<<" \n While entering the elements, enter an element and press #Enter key to type the next one ";
+	cout<<" \n While entering the elements, enter an element and press #Enter key to type the next one "<<"\n";
 	for(i=0;i<=arraysize-1;++i)			//taking values for the no. of elements
 	{
 		cin>>a[i];
